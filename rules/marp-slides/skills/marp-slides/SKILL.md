@@ -6,4 +6,4 @@ description: >
   Also triggers for: "make a slide deck", "create a presentation", "convert this doc to slides".
 ---
 
-Follow the instructions in `README.md` to create slides. For HTML components, see `references/components.md`.
+Follow the instructions in `../../README.md` to create slides. For HTML components, see `../../references/components.md`.

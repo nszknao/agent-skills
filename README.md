@@ -13,7 +13,8 @@ Reusable AI agent skills for Claude Code, Cursor, Copilot and more.
 ### Claude Code
 
 ```bash
-git clone https://github.com/nszknao/agent-skills.git .claude/skills/agent-skills
+/plugin marketplace add nszknao/agent-skills
+/plugin install marp-slides
 ```
 
 ### Cursor
