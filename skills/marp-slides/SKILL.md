@@ -1,10 +1,19 @@
+---
+name: marp-slides
+description: >
+  Create or edit Marp presentations as Markdown (.md), including slide structure, layout,
+  CSS, visual QA, and export. Use when the user explicitly asks for Marp or a Markdown-based
+  slide deck. Do not use for PowerPoint, Google Slides, Canva, or Figma deliverables unless
+  Marp Markdown is also requested.
+---
+
 # Marp Slides
 
-Create presentation slides in Marp Markdown with proper information design, layout, and CSS quality from the start.
+Create or edit presentation slides in Marp Markdown with proper information design, layout, and CSS quality from the start.
 
 ## Input
 
-Gather the following from the user before writing any slides:
+Determine the following before writing slides. Infer them from the user's request and source material when possible; ask only when a missing choice would materially change the result:
 
 - Slide content, purpose, and source material (existing docs, notes, etc.)
 - Target audience (executives, engineers, external stakeholders, etc.)
@@ -125,11 +134,13 @@ Body text, tables, or visuals go here
 
 ### 5. Quality Checklist
 
-After creating slides, export to PNG for visual review:
+After creating slides, export to PNG for visual review. Prefer an already-installed Marp CLI. If it is unavailable, ask for permission before downloading it with `npx` when the environment requires approval:
 
 ```bash
 npx @marp-team/marp-cli <file>.md --images png -o /tmp/slides/slide.png --allow-local-files --no-stdin
 ```
+
+Inspect every exported slide image with the environment's image-viewing capability. Fix clipping, overflow, weak contrast, inconsistent alignment, and unintended wrapping, then export and inspect again until the deck passes the checklist below.
 
 **Layout**
 - [ ] All content slide h1 positions are aligned at the top

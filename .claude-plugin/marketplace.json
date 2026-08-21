@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "marp-slides",
-      "source": "./rules/marp-slides",
+      "source": "./",
       "description": "Marp Markdown slide creation with information design, layout, and CSS quality",
       "keywords": ["marp", "slides", "presentation"],
       "category": "productivity"

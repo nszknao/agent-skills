@@ -1,6 +1,6 @@
-# HTML Component Patterns
+# HTML Component Patterns for Marp
 
-Add the following CSS and HTML as needed. All font sizes use `em` relative to the base.
+Use the following CSS and HTML as needed. All font sizes use `em` relative to the base.
 
 ## Table of Contents
 
