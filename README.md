@@ -7,34 +7,29 @@ Reusable AI agent skills for Codex, Claude Code, Cursor, Copilot, and more.
 | Skill | Description |
 |---|---|
 | [marp-slides](./skills/marp-slides/) | Marp Markdown slide creation with information design, layout, and CSS quality |
+| [story-review](./skills/story-review/) | Review nonfiction content, structure, and clarity for its audience and purpose |
 
 ## Usage
 
+Replace `<skill>` with a name from the table above.
+
 ### Codex
 
-Ask Codex to install the skill from this repository:
-
 ```text
-$skill-installer Install marp-slides from https://github.com/nszknao/agent-skills/tree/main/skills/marp-slides
+$skill-installer Install <skill> from https://github.com/nszknao/agent-skills/tree/main/skills/<skill>
 ```
 
-Then invoke it with `$marp-slides`, or ask for a Marp or Markdown-based slide deck.
+Invoke with `$<skill>`.
 
 ### Claude Code
 
 ```bash
 /plugin marketplace add nszknao/agent-skills
-/plugin install marp-slides
+/plugin install <skill>@nszknao-agent-skills
 ```
 
-### Cursor
-
-Reference `skills/marp-slides/SKILL.md` from `.cursorrules`.
-
-### GitHub Copilot
-
-Reference `skills/marp-slides/SKILL.md` from `.github/copilot-instructions.md`.
+Invoke with `/<skill>:<skill>`.
 
 ### Other agents
 
-Point your agent to `skills/marp-slides/SKILL.md`.
+Reference `skills/<skill>/SKILL.md` in your agent's instructions.
