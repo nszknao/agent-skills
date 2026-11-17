@@ -10,8 +10,17 @@
     {
       "name": "marp-slides",
       "source": "./",
+      "skills": ["./skills/marp-slides"],
       "description": "Marp Markdown slide creation with information design, layout, and CSS quality",
       "keywords": ["marp", "slides", "presentation"],
+      "category": "productivity"
+    },
+    {
+      "name": "story-review",
+      "source": "./",
+      "skills": ["./skills/story-review"],
+      "description": "Review nonfiction content, structure, and clarity for its audience and purpose",
+      "keywords": ["writing", "review", "editing", "nonfiction"],
       "category": "productivity"
     }
   ]
